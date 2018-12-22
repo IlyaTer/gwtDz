@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15.12.2018, 19:42:08
+    Author     : mr_user
+*/
+
+.finst
+{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.cent
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu
+{
+    background-color:white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border: double;
+    border-color: black;
+    width: 880px;
+    font-size: 18px;
+    margin-top: -15px;
+    border-radius: 5px;
+}
+
+.minidialog
+{
+    background-color:white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border: double;
+    border-color: black;
+    font-size: 18px;
+    margin-top: -15px;
+    border-radius: 5px;
+}
+
+.menit
+{
+    margin-left: 10px;
+    border-left: double;
+    border-color: black;
+    padding-left: 3px;
+    border-radius: 5px;
+}
+
+.menit:hover
+{
+    background-color: #e7e7e7;
+    cursor: pointer;
+}
+
+body
+{
+    background-color:#cccccc;
+}
+
+.ptab
+{
+    background-color:white;
+    color: black;
+    margin-top: 10px;
+    border: double;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.hpm
+{
+    margin: 10px;
+}
+
+.butons
+{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border-left: double;
+    border-color: black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.butons:hover
+{
+    background-color: #e7e7e7;
+    cursor: pointer;    
+}
+
+.lebl
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
