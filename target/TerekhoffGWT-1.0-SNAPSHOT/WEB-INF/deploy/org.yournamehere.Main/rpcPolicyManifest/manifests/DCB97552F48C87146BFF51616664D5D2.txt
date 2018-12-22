@@ -1,0 +1,2 @@
+serviceClass: org.yournamehere.client.gewgwt.GWTService
+path: 1B4758D5460522EFEFD9D482A674BF0C.gwt.rpc

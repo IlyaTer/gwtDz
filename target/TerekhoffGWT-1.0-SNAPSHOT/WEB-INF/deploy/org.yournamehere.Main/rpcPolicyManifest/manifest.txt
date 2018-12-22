@@ -1,0 +1,3 @@
+# Module org.yournamehere.Main
+# RPC service class, partial path of RPC policy file
+org.yournamehere.client.gewgwt.GWTService, 1B4758D5460522EFEFD9D482A674BF0C.gwt.rpc
