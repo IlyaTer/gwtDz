@@ -40,6 +40,20 @@ public class GWTServiceImpl extends RemoteServiceServlet implements GWTService {
                     Integer.parseInt(res[3]), Integer.parseInt(res[4]),
                     new Date(), Double.parseDouble(res[6])));
         }//end add if
+        
+        if (strs[0].equals("edt")) {
+            if (books == null) {
+                books = getData(path);
+            }
+
+            AppData app = books.get(books.indexOf(new AppData("123", "123", res[0],
+                    Integer.parseInt("123"), Integer.parseInt("123"),
+                    new Date(), Double.parseDouble("123"))));
+            AppData appNew = new AppData(res[1], res[2], res[0],
+                    Integer.parseInt(res[3]), Integer.parseInt(res[4]),
+                    new Date(Long.parseLong(res[5])), Double.parseDouble(res[6]));
+                Collections.replaceAll(books, app, appNew);
+        }//end add if
 
         if (strs[0].equals("rem")) {
             if (books == null) {
